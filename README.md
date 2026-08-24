@@ -1,7 +1,6 @@
 # Do chromatin loops reach the nearest gene?
 
-A re-analysis of published HiCAR chromatin interaction data from GM12878 cells, asking a simple
-question: when two regions of DNA physically contact each other, does the contact usually involve
+This is a re-analysis of published HiCAR chromatin interaction data from GM12878 cells, asking a scientific question: When two regions of DNA physically contact each other, does the contact usually involve
 the nearest protein-coding gene?
 
 ## Result
