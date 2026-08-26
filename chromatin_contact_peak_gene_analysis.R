@@ -1,6 +1,5 @@
 library(readxl)
 library(ggplot2)
-library(dplyr)
 library(tidyverse)
 library(GenomicRanges)
 library(TxDb.Hsapiens.UCSC.hg38.knownGene)
@@ -43,8 +42,8 @@ ggplot(gm, aes(x = span)) +
 
 tapply(gm$span, gm$`interaction type`, median)
 
-BiocManager::install("TxDb.Hsapiens.UCSC.hg38.knownGene")
-BiocManager::install("org.Hs.eg.db")
+# BiocManager::install("TxDb.Hsapiens.UCSC.hg38.knownGene")
+# BiocManager::install("org.Hs.eg.db")
 
 
 all_genes <- genes(TxDb.Hsapiens.UCSC.hg38.knownGene)
@@ -145,7 +144,7 @@ fig3 <- ggplot(scatter_data, aes(x = span, y = genes_skipped)) +
 
 ggsave("fig3_span_vs_skipped.png", fig3, width = 7, height = 4.5, dpi = 300)
 
-
+sessionInfo()
 
 
 
