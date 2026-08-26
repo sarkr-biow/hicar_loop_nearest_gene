@@ -12,7 +12,7 @@ excel_sheets("hicar_table_s2_maps_loops.xlsx")
 peek <- read_excel("hicar_table_s2_maps_loops.xlsx",
                    sheet = "GM12878 interactions",
                    n_max = 5)
-peek
+
 
 gm <- read_excel("hicar_table_s2_maps_loops.xlsx",
                  sheet = "GM12878 interactions")
