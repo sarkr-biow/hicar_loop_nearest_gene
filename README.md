@@ -37,7 +37,7 @@ am combining with the HiCAR result.
 
 ## Data
 
-I used the published HiCAR interaction calls from:
+I used the published HiCAR interaction calls from this paper:
 
 Wei X, Xiang Y, Peters DT, et al. HiCAR is a robust and sensitive method to analyze
 open-chromatin-associated genome organization. *Molecular Cell* 82(6):1225-1238 (2022).
