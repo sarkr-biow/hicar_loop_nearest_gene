@@ -103,6 +103,7 @@ plot(testable$span, n_genes_between,
      xlab = "Loop span (bp)", ylab = "Protein-coding genes skipped",
      pch = ".", log = "x")
 
+# Figures
 
 fig1 <- ggplot(gm, aes(x = span)) +
   geom_histogram(bins = 60, fill = "grey30") +
